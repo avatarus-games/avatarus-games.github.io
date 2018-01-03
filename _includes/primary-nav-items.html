@@ -1,9 +1,9 @@
 <ul>
 <li class="{% if page.overview %}current{% endif %}">
 	  {% if site.lang == "ru" %}
-		  <a href="{{site.url}}/ru/">{% t main.menuSection.menuMain %}</a>
+		  <a href="{{ site.url }}/ru/">{% t main.menuSection.menuMain %}</a>
 	  {% else %}
-		  <a href="{{site.url}}/en/">{% t main.menuSection.menuMain %}</a>
+		  <a href="{{ site.url }}/en/">{% t main.menuSection.menuMain %}</a>
 	  {% endif %}
   </li>
   <li class="{% if page.author %}current{% endif %}">
