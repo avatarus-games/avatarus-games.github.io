@@ -1,0 +1,30 @@
+<article>
+        <h2>
+          {% if site.lang == 'ru' %}
+          <a href="/ru{{ post.url }}">
+            {{ post.title }}
+          </a>
+          {% else %}
+          <a href="/en{{ post.url }}">
+            {{ post.title }}
+          </a>          
+          {% endif %}
+        </h2>
+        <span class="post-category">
+          <span class="label">
+            {{ post.categories | array_to_sentence_string }}
+          </span>
+        </span>
+        <div class="post-meta">
+          <span class="post-date">
+            {{ post.date | date: '%m.%d.%Y' }}
+          </span>
+          <a href="https://miafam.com/{{ post.author }}" class="post-author">
+            {% assign author = post.author %}
+            {{ post.author }}
+          </a>
+        </div>
+        <div class="post-content">
+          {{ post.content }}
+        </div>
+      </article>

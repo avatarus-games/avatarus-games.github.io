@@ -1,0 +1,36 @@
+
+<div class="unit one-fifth hide-on-mobiles">
+        <aside>
+      {% if site.lang == 'ru' %}  
+      
+      <h4>{% t main.menuSection.menuNews %}</h4>
+      <ul>
+          {% for post in site.posts %}
+          {% if post.lang == 'ru' %}
+          {% unless post.categories contains 'release' %}
+          <li class="{% if page.title == post.title %}current{% endif %}">
+            <a href="{{ site.url }}/ru{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endunless %}
+          {% endif %}
+          {% endfor %}
+
+      </ul>
+      
+      {% else %}
+      
+      <h4>{% t main.menuSection.menuNews %}</h4>
+          <ul>
+              {% for post in site.posts %}
+              {% if post.lang == 'en' %}
+              {% unless post.categories contains 'release' %}
+              <li class="{% if page.title == post.title %}current{% endif %}">
+                <a href="{{ site.url }}/en{{ post.url }}">{{ post.title }}</a>
+              </li>
+              {% endunless %}
+              {% endif %}
+              {% endfor %}
+          </ul>
+      {% endif %}
+        </aside>
+      </div>

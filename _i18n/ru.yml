@@ -1,0 +1,15 @@
+site:
+  name: "AvatarusGames"
+  tagline: "Официальный сайт"
+  description: "Официальный сайт разработчиков AvatarusGames."
+  keywords: "avatarusgames, games, official site"
+
+main:
+  welcomeSection:
+    anchor: "Привет"
+    heading: "Добро пожаловать к нам на сайт."
+    p1: some text
+  menuSection:
+    menuMain: Главная
+    menuNews: Новости
+    menuInfo: Инфо

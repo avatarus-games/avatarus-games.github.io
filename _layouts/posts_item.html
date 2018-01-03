@@ -1,0 +1,30 @@
+---
+layout: posts
+---
+
+<article>
+  <h2>
+    {{ page.title }}
+    {% if site.lang == 'ru' %}
+    <a href="/ru{{ page.url }}" class="permalink" title="Permalink">∞</a>
+    {% else %}
+    <a href="/en{{ page.url }}" class="permalink" title="Permalink">∞</a>
+    {% endif %}
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      {{ page.categories | array_to_sentence_string }}
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      {{ page.date | date: '%m.%d.%Y' }}
+    </span>
+    <a href="https://miafam.com/{{ page.author }}" class="post-author">
+      {{ page.author }}
+    </a>
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

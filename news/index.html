@@ -1,0 +1,23 @@
+---
+layout: posts
+title: News
+permalink: /news/
+author: all
+---
+
+{% if site.lang == 'ru' %}
+{% for post in site.posts %}
+{% if post.lang == 'ru' %}
+  {% include posts_item.html %}
+{% endif %}  
+{% endfor %}
+
+{% else %}
+
+{% for post in site.posts %}
+{% if post.lang == 'en' %}
+  {% include posts_item.html %}
+{% endif %}  
+{% endfor %}
+
+{% endif %}

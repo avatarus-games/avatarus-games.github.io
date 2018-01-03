@@ -1,0 +1,15 @@
+site:
+  name: "AvatarusGames"
+  tagline: "Official website"
+  description: "Official website of AvatarusGames developers"
+  keywords: "avatarusgames, games, official site"
+
+main:
+  welcomeSection:
+    anchor: "Welcome"
+    heading: "Welcome to AvatarusGames webseite."
+    p1: "some text"
+  menuSection:
+    menuMain: Main
+    menuNews: News
+    menuInfo: Info
