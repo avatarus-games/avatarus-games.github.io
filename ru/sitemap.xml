@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/ru/news/2016/10/07/vadim-new-site_ru/</loc>
+<loc>https://avatarus-games.github.io/ru/news/2016/10/07/vadim-new-site_ru/</loc>
 <lastmod>2016-10-07T00:00:00+10:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/ru/news/2016/10/20/vadim-miafam-friend-ru/</loc>
+<loc>https://avatarus-games.github.io/ru/news/2016/10/20/vadim-miafam-friend-ru/</loc>
 <lastmod>2016-10-20T00:00:00+10:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/ru/about-us/</loc>
+<loc>https://avatarus-games.github.io/ru/about-us/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/ru/base/</loc>
+<loc>https://avatarus-games.github.io/ru/base/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/ru/news/</loc>
+<loc>https://avatarus-games.github.io/ru/news/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/ru/</loc>
+<loc>https://avatarus-games.github.io/ru/</loc>
 </url>
 </urlset>
