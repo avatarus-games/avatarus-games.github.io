@@ -18,6 +18,10 @@
 	<script type="text/javascript" src="/assets/js/fancybox/helpers/jquery.fancybox-buttons.js"></script>
 	<link rel="stylesheet" href="/assets/js/fancybox/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
 
+  {% if page.url == "/404.html" %}
+  <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
+
     <title>{% t site.name %} - {% t site.tagline %}</title>
     {% seo %}
   </head>

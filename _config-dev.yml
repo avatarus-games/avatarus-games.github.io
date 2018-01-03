@@ -1,0 +1,27 @@
+markdown: kramdown
+highlighter: rouge
+permalink: /news/:year/:month/:day/:title/
+repository: avatarus-games/avatarus-games.github.io
+
+languages: ["ru", "en"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: ru
+languageNames:
+  ru: Russian
+  en: English
+
+include: ['assets','README.md','favicon.ico']
+
+exclude: ["Gemfile","Gemfile.lock"]
+
+gems:
+  - jekyll-multiple-languages-plugin
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+
+github: [metadata]
+encoding: UTF-8
