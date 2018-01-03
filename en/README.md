@@ -1,9 +1,3 @@
-# morrotes.github.io
-Morrotes Site
-===================
+# AvatarusGames WebSite
 
-_v.0.0.1_
-
-_05.05.2017_
-
-Jekyll + Github Pages + Plugins
+Official Avatarus Games website
