@@ -6,11 +6,18 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'DS Pixel Cyr'; /* Гарнитура шрифта */
+  src: url('../fonts/ds-pixel-cyr.ttf'); /* Путь к файлу со шрифтом */
+ }
+
 body {
-  font: 300 21px 'Cuprum', sans-serif;
+  font: 300 21px 'DS Pixel Cyr'; /* 'Cuprum', sans-serif;*/
+  //src: url('../fonts/pixel-cyr.ttf');
   color: #ddd;
-  background-color: #03406B;
-  border-top: 5px solid #fc0;
+  background-color: #093750;
+  /* background-color: #03406B; */
+  border-top: 3px solid #fc0;
   @include box-shadow(inset 0 3px 30px rgba(0,0,0,.3));
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   -webkit-font-feature-settings: "kern" 1;
@@ -69,7 +76,7 @@ nav {
     margin-right: 10px;
 
     a {
-      @include border-radius(5px);
+      @include border-radius(0px);
       font-weight: 900;
       font-size: 14px;
       padding: 0.7em 1em 0.5em 1em;
@@ -78,8 +85,8 @@ nav {
       @include transition(all .25s);
 
       &:hover {
-        background-color: #0A64A4;
-        @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
+        background-color: #022335;
+        @include box-shadow(0px 5px 0px rgb(255, 187, 0)); /* box-shadow(x-shift y-shift radius rgb(r,g,b,trans)) */
         text-shadow: 0 1px 3px rgba(0,0,0,.5);
       }
     }
@@ -88,8 +95,9 @@ nav {
 
       a {
         background-color: #FFBE00;
-        color: #03406B;
-        @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
+        color: #093750;
+        @include box-shadow(0 5px 0px rgb(0, 27, 41));
+        /* @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5)); */
         text-shadow: 0 1px 0 rgba(255,255,255,.3);
       }
     }
@@ -168,11 +176,11 @@ h6:hover .header-link {
 /* Footer */
 
 footer {
-  background-color: #0A64A4;
+  background-color: #093750;
   font-size: 16px;
   padding-bottom: 5px;
   color: #c0c0c0;
-  margin-top: 40px;
+  margin-top: 0px;
 
   a {
     color: #fff;
@@ -336,8 +344,12 @@ footer {
 .projets-panel {
 
   .pane {
-    background-color: #0A64A4;
-    @include border-radius(10px);
+    background-color: #022335;
+    /* background-color: #0A64A4; */
+    border-style: solid;
+    border-color: #ffbe00;
+    @include border-radius(0px);
+    @include box-shadow(0 5px 0px rgb(0, 27, 41));
     text-shadow: none;
     position: relative;
     padding: 0 20px 30px;
@@ -345,8 +357,8 @@ footer {
 
   img {
     margin: -30px 0 0;
-    width: 180px;
-    height: 261px;
+    width: 237px;
+    height: 421px;
   }
 
   h2 { font-size: 28px; }
@@ -354,7 +366,7 @@ footer {
   p,
   a { font-size: 16px; }
 
-  p { margin: .75em 0; }
+  p { margin: .25em 0; }
 }
 
 @media (min-width: 768px) {
@@ -362,9 +374,10 @@ footer {
 
     img {
       float: right;
-      margin: -20px -50px -25px 10px; /* top, right, bottom, left */
-      width: 250px;
-      height: 362px;
+      margin: -80px -50px -25px -20px;
+      /* margin: -20px -50px -25px 10px; /* top, right, bottom, left */
+      width: 320px;
+      height: 418px;
     }
 
     .pane-content {
@@ -382,8 +395,11 @@ footer {
 .free-hosting {
 
   .pane {
-    background-color: #0A64A4;
-    @include border-radius(10px);
+    background-color: #022335;
+    border-style: solid;
+    border-color: #ffbe00;
+    @include border-radius(0px);
+    @include box-shadow(0 5px 0px rgb(0, 27, 41));
     text-shadow: none;
     position: relative;
     padding: 0 20px 30px;
@@ -391,8 +407,8 @@ footer {
 
   img {
     margin: -30px 0 0;
-    width: 180px;
-    height: 303px;
+    width: 350px;
+    height: 428px;
   }
 
   h2 { font-size: 28px; }
@@ -400,7 +416,7 @@ footer {
   p,
   a { font-size: 16px; }
 
-  p { margin: .75em 0; }
+  p { margin: .25em 0; }
 }
 
 @media (min-width: 768px) {
@@ -408,9 +424,9 @@ footer {
 
     img {
       float: left;
-      margin: -20px 10px -25px -50px; /* top, right, bottom, left*/
-      width: 250px;
-      height: 421px;
+      margin: -20px -20px -25px -50px; /* top, right, bottom, left*/
+      width: 350px;
+      height: 428px;
     }
 
     .pane-content {
@@ -438,11 +454,14 @@ footer {
 
 
 article {
-  background-color: #0A64A4;
-  @include border-radius(10px);
+  background-color: #022335;
+  border-style: solid;
+  border-color: #ffbe00;
+  @include border-radius(0px);
+  @include box-shadow(0 0px 0px rgb(0, 27, 41));
   padding: 20px;
   margin: 0 10px;
-  @include box-shadow(0 3px 10px rgba(3,64,107,.1));
+  /*@include box-shadow(0 3px 10px rgba(3,64,107,.1));*/
   font-size: 16px;
 }
 
@@ -473,7 +492,7 @@ aside {
     padding: 0 0 10px 30px;
     margin-left: -30px;
     display: inline-block;
-    border-bottom: 1px solid #0A64A4;
+    border-bottom: 3px solid #FFBE00;
   }
 
   ul {
@@ -604,8 +623,8 @@ article h2:first-child { margin-top: 0; }
   display: inline-block;
   margin-left: -30px;
   padding: 6px 10px 8px;
-  padding-left: 50px;
-  @include border-radius(0 5px 5px 0);
+  padding-left: 80px;
+  @include border-radius(0 0px 0px 0);
   position: relative;
   @include box-shadow(0 1px 5px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255,255,255,.2), inset 0 -1px 0 rgba(0,0,0,.3));
   background-color: #03406B;
@@ -633,7 +652,9 @@ article h2:first-child { margin-top: 0; }
 .post-content img { max-width: 100% }
 
 .label {
-  color: #0A64A4;
+  color: #093750;
+  /* @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5)); */
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
   float: left;
   padding-top: 3px;
   text-transform: uppercase;
@@ -666,10 +687,10 @@ article h2:first-child { margin-top: 0; }
 .post-author { margin-left: 10px; }
 
 .news article + article {
-  margin-top: -10px;
-  @include border-radius(0 0 10px 10px);
-  border-top: 1px solid #03406B;
-  @include box-shadow(0 -1px 0 #03406B);
+  margin-top: -20px;
+  @include border-radius(0 0 0px 0px);
+  border-top: 0px;
+  /*@include box-shadow(0 -1px 0 #03406B);*/
 }
 
 /* Code Highlighting */
