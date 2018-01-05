@@ -1,5 +1,3 @@
-# AvatarusGames WebSite
-
 AvatarusGames Official Website
 ===============================
 
