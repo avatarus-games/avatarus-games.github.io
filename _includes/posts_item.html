@@ -11,19 +11,20 @@
           {% endif %}
         </h2>
         <span class="post-category">
-          <span class="label">
-            {{ post.categories | array_to_sentence_string }}
-          </span>
+          <span class="label">>>  {{ post.categories | array_to_sentence_string }} >> {{ post.date | date: '%m.%d.%Y' }}</span>
         </span>
+        <!--
         <div class="post-meta">
           <span class="post-date">
             {{ post.date | date: '%m.%d.%Y' }}
           </span>
+          
           <a href="https://miafam.com/{{ post.author }}" class="post-author">
             {% assign author = post.author %}
             {{ post.author }}
           </a>
         </div>
+        -->
         <div class="post-content">
           {{ post.content }}
         </div>

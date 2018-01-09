@@ -13,9 +13,10 @@ layout: posts
   </h2>
   <span class="post-category">
     <span class="label">
-      {{ page.categories | array_to_sentence_string }}
+    >>  {{ page.categories | array_to_sentence_string }} >> {{ page.date | date: '%m.%d.%Y' }}
     </span>
   </span>
+<!--
   <div class="post-meta">
     <span class="post-date">
       {{ page.date | date: '%m.%d.%Y' }}
@@ -24,6 +25,7 @@ layout: posts
       {{ page.author }}
     </a>
   </div>
+-->
   <div class="post-content">
     {{ content }}
   </div>
