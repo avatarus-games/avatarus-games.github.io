@@ -12,9 +12,20 @@ Avatarus Games теперь дружит с социальной сетью [Mia
 
 Не пропустите обновления в нашей [группе](https://miafam.com/groups/avatarusgames/).
 
-<a class="fancyimage" rel="group" href="/assets/img/avatarus-post-2.png">
+<div class="ImageGrid">
+<a data-fancybox="gallery" href="/assets/img/avatarus-post-2.png">
 <img class="img-responsive" src="/assets/img/avatarus-post-2.png" />
 </a>
+<a data-fancybox="gallery" href="/assets/img/avatarus-post-2.png">
+<img class="img-responsive" src="/assets/img/avatarus-post-2.png" />
+</a>
+<a data-fancybox="gallery" href="/assets/img/avatarus-post-2.png">
+<img class="img-responsive" src="/assets/img/avatarus-post-2.png" />
+</a>
+<a data-fancybox="gallery" href="/assets/img/avatarus-post-2.png">
+<img class="img-responsive" src="/assets/img/avatarus-post-2.png" />
+</a>
+</div>
 
 <div class="note info">
   <h5>Справка</h5>
