@@ -2,7 +2,7 @@
 AvatarusGames Oficial website
 ===================
 
-_v.1.0.0-alfa_
+_v.1.0.10-alfa_
 
-_04.01.2018_
+_26.03.2018_
 
