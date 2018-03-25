@@ -2,6 +2,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /news/:year/:month/:day/:title/
 repository: avatarus-games/avatarus-games.github.io
+url: https://avatarus-games.github.io
 
 languages: ["ru", "en"]
 exclude_from_localizations: ["assets", "CNAME"]
