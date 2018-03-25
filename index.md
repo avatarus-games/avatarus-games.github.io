@@ -17,8 +17,8 @@ title: Home
     <div class="unit whole">
       <div class="grid pane">
         <div class="unit whole center-on-mobiles">
-          <div class="pane-content">
-	          <img src="/assets/img/avatarus-hacker.png" width="320" height="418" alt="Vatarus Hacker">
+            <img src="/assets/img/avatarus-hacker.png" width="320" height="418" alt="Vatarus Hacker">
+	  <div class="pane-content">
             <h2 class="center-on-mobiles">{% t main.welcomeSection.heading %}</h2>
             <p>{% t main.welcomeSection.heading %}</p>
             <p>{% t main.welcomeSection.heading %}</p>

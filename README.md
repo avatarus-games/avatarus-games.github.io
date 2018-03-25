@@ -1,8 +1,8 @@
 # https://vatarus.github.io
-AvatarusGames Oficial website
+AvatarusGames Official website
 ===================
 
-_v.1.0.12-alfa_
+_v.1.0.13-alfa_
 
 _26.03.2018_
 
