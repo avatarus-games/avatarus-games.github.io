@@ -1,4 +1,4 @@
 AvatarusGames Official Website
 ===============================
 
-_v1.0.9-alfa_
+_v1.0.10-alfa_

@@ -251,43 +251,27 @@ textarea { overflow: auto; }
 
 .fa-pencil:before { content: "\f040"; }
 
-#logo-text { text-transform: uppercase; font-family: 'Cuprum', sans-serif; font-size: 40px; color: #03406B; margin-top: 30px; }
+#logo-text { text-transform: uppercase; font-family: 'DS Pixel Cyr', sans-serif; font-size: 34px; color: #03406B; margin-top: 30px; }
 
 #logo-text span { display: inline-block; position: relative; letter-spacing: -1px; }
 
-/*
-#logo-text span:hover{-webkit-transform:rotate(-180deg);-webkit-transition:all 0.3s ease-out}
-#logo-text .char1{color:#FFBE00;text-shadow:#9c8b26 -4px 4px 0;top:7px}
-#logo-text .char2{color:#3E94D2;text-shadow:#2f597f -4px 4px 0}
-#logo-text .char3{color:#FFBE00;text-shadow:#9c8b26 -4px 4px 0;top:7px}
-#logo-text .char4{color:#00B160;text-shadow:#00733F -4px 4px 0}
-#logo-text .char5{color:#FFBE00;text-shadow:#9c8b26 -4px 4px 0;top:7px}
-#logo-text .char6{color:#3E94D2;text-shadow:#2f597f -4px 4px 0}
-#logo-text .char7{color:#FFBE00;text-shadow:#9c8b26 -4px 4px 0;top:7px}
-#logo-text .char8{color:#00B160;text-shadow:#00733F -4px 4px 0;top:7px}
-#logo-text .char9{color:#FF4500;text-shadow:#863027 -4px 4px 0}
-#logo-text .char10{color:#FF4500;text-shadow:#863027 -4px 4px 0}
-#logo-text .char11{color:#FF4500;text-shadow:#863027 -4px 4px 0}
-#logo-text .char12{color:#FF4500;text-shadow:#863027 -4px 4px 0}
-#logo-text .char13{color:#FF4500;text-shadow:#863027 -4px 4px 0}
-*/
 #logo-text span:hover { -webkit-transform: rotate(-180deg); -webkit-transition: all 0.3s ease-out; }
 
-#logo-text .char1 { color: #FF4500; text-shadow: #863027 -4px 4px 0; top: 7px; }
+#logo-text .char1 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
-#logo-text .char2 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; top: 7px; }
+#logo-text .char2 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
-#logo-text .char3 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; top: 7px; }
+#logo-text .char3 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
-#logo-text .char4 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; top: 7px; }
+#logo-text .char4 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
-#logo-text .char5 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; top: 7px; }
+#logo-text .char5 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
-#logo-text .char6 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; top: 7px; }
+#logo-text .char6 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
-#logo-text .char7 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; top: 7px; }
+#logo-text .char7 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
-#logo-text .char8 { color: #FF4500; text-shadow: #863027 -4px 4px 0; top: 7px; }
+#logo-text .char8 { color: #FF4500; text-shadow: #863027 -4px 4px 0; }
 
 #logo-text .char9 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
 
@@ -297,7 +281,9 @@ textarea { overflow: auto; }
 
 #logo-text .char12 { color: #FF4500; text-shadow: #863027 -4px 4px 0; }
 
-#logo-text .char13 { color: #FFBE00; text-shadow: #9c8b26 -4px 4px 0; }
+#logo-text .char13 { color: #FF4500; text-shadow: #863027 -4px 4px 0; }
+
+#logo-text .char14 { color: #FF4500; text-shadow: #863027 -4px 4px 0; }
 
 /* Base */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
