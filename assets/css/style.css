@@ -240,17 +240,7 @@ textarea { overflow: auto; }
 .highlight .il { color: #ffffff; }
 .highlight .bash .nv { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
 
-/*!
- *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-@font-face { font-family: 'FontAwesome'; src: url("../fonts/fontawesome-webfont.eot?v=4.4.0"); src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg"); font-weight: normal; font-style: normal; }
-.fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-
-.fa-link:before { content: "\f0c1"; }
-
-.fa-pencil:before { content: "\f040"; }
-
+/*@import "font-awesome";*/
 #logo-text { text-transform: uppercase; font-family: 'DS Pixel Cyr', sans-serif; font-size: 34px; color: #03406B; margin-top: 30px; }
 
 #logo-text span { display: inline-block; position: relative; letter-spacing: -1px; }
@@ -361,7 +351,7 @@ footer img { display: inline-block; position: relative; top: 8px; margin-left: 5
 
 /* Free Hosting */
 .projets-panel .pane { background-color: #022335; /* background-color: #0A64A4; */ border-style: solid; border-color: #ffbe00; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; -webkit-box-shadow: 0 5px 0px #001b29; -moz-box-shadow: 0 5px 0px #001b29; box-shadow: 0 5px 0px #001b29; text-shadow: none; position: relative; padding: 0 20px 30px; }
-.projets-panel img { margin: -30px 0 0; width: 237px; height: 421px; }
+.projets-panel img { margin: -30px 0 0; width: 320px; height: 418px; }
 .projets-panel h2 { font-size: 28px; }
 .projets-panel p, .projets-panel a { font-size: 16px; }
 .projets-panel p { margin: .25em 0; }
